@@ -13,20 +13,27 @@
         margin: 50px;
       }
       span {
-        color: tomato;
+        background-color: tomato;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: underline;
       }
-      div p span {
-        background-color: teal
+      p span {
+        color: white;
+        text-decoration: none;
+      }
+      p + span{
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
     <div>
-      <span>hello</span>
       <p>
-        Hello my name is Hagyeong! I have a time! Do you know this?
+        Hello my name is Hagyeong! I have a time! Do you know this? 
         <span>inside</span>
       </p>
+      <span>hello</span>
     </div>
   </body>
 </html>
